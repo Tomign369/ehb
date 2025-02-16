@@ -1,0 +1,19 @@
+.tooltip-container {
+  position:relative;
+  display: inline-block;
+}
+
+.tooltip{
+  visibility: hidden;
+  position:absolute;
+  background-color: aqua;
+  padding: 1rem;
+  display: block;
+  left:30%;
+  width:max-content;
+  max-width: 300 px;
+}
+
+.tooltip-container:hover .tooltip {
+  visibility:visible;
+}

@@ -1,0 +1,23 @@
+* {
+}
+
+body {
+  padding: 0 25% 0 25%;
+}
+.head-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.head-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.head-img img {
+  height: 65%;
+  width: 65%;
+  border: 1px solid black;
+}

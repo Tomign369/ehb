@@ -1,0 +1,39 @@
+* {
+
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+}
+
+.boxes{
+	text-align: center;
+	color: antiquewhite;
+	/* display: in ine-block; */
+
+}
+
+blockquote {
+
+  font-size: 2rem;
+  background: #143843;
+  width: 50%;
+  border: 5px solid white;
+  padding: 2rem;
+  margin: 3rem;
+}
+
+blockquote.two {
+  margin: 2rem auto;
+}
+
+blockquote.three {
+  margin-left: auto;
+}
+
+
+
+

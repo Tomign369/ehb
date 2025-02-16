@@ -1,0 +1,19 @@
+.movie-image {
+  width:30%;
+  position:relative;
+}
+
+img{
+  width:100%;
+  display:block;
+}
+
+.image-overlay {
+  background: linear-gradient(45deg, gold, transparent);
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+}
+

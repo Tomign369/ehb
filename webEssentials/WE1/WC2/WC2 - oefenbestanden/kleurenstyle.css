@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(255,99,71);
+}
+
+p > a {
+    color: #dadcde;
+}
+
+.navigatie a {
+    color: #231F20;
+    
+}
+
+.navigatie a:hover {
+    background-color: black;
+    color: white;
+
+}
+
+.navigatie .current {
+    background-color: rgba(0,0,0,0.4);
+    color: rgb(171, 172, 170);
+}
+
+blockquote {
+    background-color: white !important;
+    color: rgb(255, 99, 71);
+    text-align: center;
+}
+
+.speciaal {
+    background-color: black;
+    color: yellow
+}

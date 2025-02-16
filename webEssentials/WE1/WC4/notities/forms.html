@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <form action="" method="post">
+        <h2>Basic Inputs</h2>
+        
+        
+        <h3>Text</h3>
+        <p>
+            <label for="username">Username:</label>
+            <input id="username" type="text" name="username" size="15" maxlength="30">
+        </p>
+
+        <h3>Password</h3>
+        <p> <label>Password:
+            <input type="password" name="passwoord" size="15" maxlength="30">
+        </label>
+        </p>
+
+        <h3>submit</h3>
+        <input type="submit" value="Subscribe">
+
+        <h3>Reset button</h3>
+        <input type="reset" value="Reset this form?">
+
+        <h2>Button</h2>
+        <button>Click me :-)</button>
+
+        <h2>Multiline text</h2>
+        <textarea name="comments" cols="20" rows="4">Enter your comments...
+        </textarea>
+
+        <h2>Radio buttons</h2>
+        <h3>Radio button </h3>
+        <input type="radio" name="genre" value="rock" checked id="genre1"> <label for="genre1">rock</label>
+        <input type="radio" name="genre" value="pop" checked id="genre2"> <label for="genre2">pop</label>
+        <input type="radio" name="genre" value="jazz" checked id="genre3"> <label for="genre3">jazz</label>
+
+
+        <label for="browser"> What is your prefered browser?</label><br>
+        <input list="browsers" name="browser" id="browser" type="text">
+        <datalist id="browsers">
+	        <option value="Micrsoft Edge">
+	        <option value="Chrome">
+        </datalist>
+
+        <h2>grouping form elements</h2>
+        <fieldset>
+            <legend>Contact details</legend>
+            <label>Email:<br />
+                <input type="text" name="email"></label>
+            <br />
+            <label>Mobile:<br />
+                <input type="text" name="mobile"></label>
+            <br />
+            <label>Telephone:<br />
+                <input type="text" name="tel"></label>
+            <br />
+        </fieldset>
+
+        <h2>More input files</h2>
+        <h3>File upload</h3>
+
+        <label>Upload your song in MP3 format:
+            <input type="file" name="user-song">
+        </label>
+
+
+        <h2>Hiddenfield</h2>
+        <input type="hidden" name="categor" value="jazz">
+
+        <h2>Date input</h2>
+        <label for="date">Departure date:</label>
+        <input type="date" name="depart" id="date">
+        <input type="submit">
+
+        <h2>email:</h2>
+        <input type="email" name="email">
+
+        <h2>Search field</h2>
+            <input type="search" name="search" placeholder="Enter keyword">
+
+        <h2>Range field</h2>
+        <label for="vol">Volume</label>
+        <input type="range" name="vol" id="vol" min="0" max="100" step="10">
+    </form>
+</body>
+</html>

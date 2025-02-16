@@ -1,0 +1,51 @@
+
+.tablecontainer {
+    display: inline-block;
+    background-color: rgb(230, 87, 87);
+    
+
+}
+
+table {
+    display: table;
+    border-radius: 4px;
+    border-collapse: collapse;
+
+    background-color:bisque;
+    padding: 1em;
+    margin: 1em;
+
+}
+
+thead {
+    border-bottom: 1px dashed grey;
+}
+
+th {
+    text-align: left;
+}
+
+th, td {
+    padding: 4px;
+}
+
+tfoot {
+    border-top: 1px dotted grey;
+
+}
+table td:nth-child(1) { 
+    text-align: left; 
+    padding-right: 5em; 
+}
+
+
+
+table td:nth-child(2),
+table td:nth-child(3) { 
+    text-align: right;
+}
+
+table td:nth-child(3),
+table th:nth-child(3) {
+    width:150px;
+}
