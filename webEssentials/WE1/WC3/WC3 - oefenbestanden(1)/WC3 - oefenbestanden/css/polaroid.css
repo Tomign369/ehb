@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgconainter {
+    background-color: rgb(219, 210, 200);
+    width: 300px;    
+    border-radius: 17px;
+    box-shadow: 0 10px 14px rgba(0,0, 0, 6);
+}
+
+img {
+    width: 100%;
+    padding:15px 15px 15px 15px;
+}
+
+figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 25px;
+}

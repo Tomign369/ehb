@@ -1,0 +1,74 @@
+.table-container {
+    background-color: rgb(235, 125, 125);
+    padding: 12px;
+    display: inline-block;
+
+}
+
+th, td {
+    border: none;
+    padding: 3px;
+    
+}
+
+table {
+    border-collapse: collapse;
+    background-color: antiquewhite; 
+    border-radius: 3px;      
+    padding: 2px
+
+
+}
+
+thead {
+    text-align: left;
+    vertical-align: bottom;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 8px;
+    color: grey;
+
+}
+
+thead, tbody{
+    border-bottom: 1px dashed;
+    border-color: grey;
+    border-left: none; 
+    border-right: none; 
+}
+
+tbody {
+    font-size: 10px;
+
+
+}
+
+tbody tfoot {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5px;
+}
+
+tfoot {
+    color: rgb(7, 83, 7);
+    font-size: 11px;
+
+}
+
+.size{
+    font-size: 10px;
+    color: grey;
+}
+
+thead th:nth-child(1), tbody td:nth-child(1), tfoot td:nth-child(1){
+    text-align: left;
+    padding-right: 25px;
+}
+
+tbody td:nth-child(2), tfoot td:nth-child(2){
+    text-align: center;
+    padding-right: 8px;
+
+}
+
+thead th:nth-child(3), tbody td:nth-child(3), tfoot td:nth-child(3){
+    text-align: right;
+}

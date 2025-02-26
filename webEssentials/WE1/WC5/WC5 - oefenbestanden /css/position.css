@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 1rem;
+}
+
+header,
+footer,
+article {
+  padding: 1rem 2rem;
+}
+
+article {
+  min-height: 150vh;
+  background-color: beige;
+  margin: 1rem 0;
+}
+
+header,
+footer {
+  background-color: tomato;
+}
+
+nav {
+  left: 16px;
+  right: 16px;
+  position:fixed;
+  padding: 1em;
+  background-color: gold;
+  top:0;
+  left:0;
+}
+
+/* de chatlink komt onderaan rechts, en blijft altijd staan */
+#chat {
+  position: fixed;
+  background: url(../images/chat-icon.png) no-repeat center 5px;
+  background-size: 40px;
+  padding: 50px 10px 5px;
+  z-index: 0;
+  bottom: 1em;
+  right: 1em;
+  text-align: center;
+  text-decoration: none;
+  transition: background-position 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+#chat:hover {
+  background-color: orange;
+  background-position: center 10px;
+}
+/* de sharelink komt links, en srolled dan mee naar boven */
+#share {
+  position:absolute;
+  top:50%;
+  background: black;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.sticky {
+  position:sticky;
+  top:50px;
+}

@@ -1,0 +1,28 @@
+h1 {
+    font-family: 'Sigmar One';
+    text-shadow: rgb(0, 174, 255) 2px 5px;
+}
+
+.schaduw1{
+    text-shadow: 1px 1px 2px pink;
+}
+
+.schaduw2{
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.schaduw3{
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.schaduw4{
+    text-shadow: red 2px 5px;
+}
+
+.schaduw5{
+    text-shadow: 5px 10px;
+}
+
+.schaduw6{
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}

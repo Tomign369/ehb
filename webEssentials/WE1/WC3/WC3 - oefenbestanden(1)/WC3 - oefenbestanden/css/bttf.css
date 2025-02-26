@@ -1,0 +1,51 @@
+body {
+    background-color: #a1a9a2;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.introContainer {
+    color: white;
+    background-image: url(/images/bttf-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6rem 5rem 6rem 5rem;
+    text-align: center;
+    /* height: 25vh; */    
+    /* background-position: center; */
+    /* height: 100%; */
+}
+
+.introContainer h1 {
+    font-size: 3em;
+    padding: 0 10rem 0rem 10rem;
+
+    
+}
+
+.introContainer p {
+    /* text-align: center; */
+    padding: 0 10rem 0rem 10rem;
+}
+
+
+.movie-row {
+    display: flex;
+    border-bottom: 2px solid black;
+
+}
+
+.movie-image {
+    margin: 1em;
+    display: inline-block;
+    background-repeat: no-repeat;    
+}
+
+.movie-text p {
+    margin-right: 2rem;
+}
+
+.movie-text .movie-date {
+    text-align: right;
+}

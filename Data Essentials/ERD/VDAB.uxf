@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <help_text/>
+  <zoom_level>12</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>312</x>
+      <y>144</y>
+      <w>252</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>Deelnemers
+--
+ID
+*werkzoekende
+*niet werkzoekende</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>816</x>
+      <y>600</y>
+      <w>264</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>Docenten
+--
+#ID
+*Universiteit
+*Hogeschool
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>264</x>
+      <y>600</y>
+      <w>252</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>Curssuen
+--
+#ID Curssus
+*programmeren
+*Data</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>264</x>
+      <y>396</y>
+      <w>252</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>Inschrijvingen
+--
+*aantal_Per_Cursus
+*betalen Ja/Nee</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>804</x>
+      <y>144</y>
+      <w>252</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>Aanwezigheden
+--
+Datum</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>504</x>
+      <y>636</y>
+      <w>336</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&gt;-&lt;</panel_attributes>
+    <additional_attributes>10.0;10.0;260.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>384</x>
+      <y>228</y>
+      <w>36</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-&lt;
+</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>384</x>
+      <y>312</y>
+      <w>36</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&gt;..</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>180</y>
+      <w>276</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>210.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

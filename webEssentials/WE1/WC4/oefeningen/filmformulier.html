@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="https://www.w3schools.com/action_page.php/form">
+        <label for="filmTitel">Film Titel:</label>
+        <input type="text" id="filmTitel" name="filmTitel">
+        <label for="regisseur">regisseur:</label>
+        <input type="text" id="regisseur" name="regisseur">
+        <label for="jaarVanUitgaven">Jaar van uitgaven:</label>
+        <input type="text" name="jaarVanUitgaven" id="jaarVanUitgaven">
+        <label for="genre">Genre:</label>
+        <select name="genre" id="genre">
+            <optgroup label="kies een genre:">
+                <option value="1">actie</option>
+                <option value="2">drama</option>
+                <option value="3">Komedie</option>
+            </optgroup>
+        </select>
+        <label for="omschrijving">Beschrijving(plot):</label>
+        <textarea name="omschrijving" id="omschrijving" cols="20" rows="4">jouw bevindingen...
+        </textarea>
+        <fieldset>
+            <legend>beoordeling:</legend>
+                <input type="radio" name="beoordeling" id="1"><label for="1">1</label>
+                <input type="radio" name="beoordeling" id="2"><label for="2">2</label>
+                <input type="radio" name="beoordeling" id="3"><label for="3">3</label>
+                <input type="radio" name="beoordeling" id="4"><label for="4">4</label>
+                <input type="radio" name="beoordeling" id="5"><label for="5">5</label>
+        </fieldset> <br>
+        <input type="submit" name="opslaan" id="opslaan" value="Opslaan">
+        <input type="hidden" name="verborgenveld" value="het werkt">
+    </form>
+    
+</body>
+</html>

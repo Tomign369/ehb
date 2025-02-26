@@ -1,0 +1,64 @@
+.table-container {
+    background-color: rgb(235, 125, 125);
+    padding: 12px;
+    display: block; /* Change inline-block to block for better control */
+    overflow: auto; /* Optional: enables scrolling if needed */
+    width: 100%; /* Make sure the container takes full width */
+    max-width: 800px; /* Optional: max width for the table */
+    margin: 0 auto; /* Center the table */
+}
+
+th, td {
+    padding: 8px 12px; /* Increased padding for better readability */
+    border: 1px solid #ddd; /* Add a border around table cells */
+}
+
+table {
+    width: 100%; /* Ensure table takes full width of the container */
+    border-collapse: collapse;
+    background-color: antiquewhite; 
+    border-radius: 3px;
+}
+
+thead {
+    text-align: left;
+    vertical-align: bottom;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px; /* Increased font size for better readability */
+    color: grey;
+}
+
+thead, tbody {
+    border-bottom: 1px dashed grey; /* Dashed border between rows */
+    border-left: none; 
+    border-right: none; 
+}
+
+tbody {
+    font-size: 12px; /* Adjust font size for body */
+}
+
+tfoot {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px; /* Adjusted for consistency */
+    color: rgb(7, 83, 7);
+}
+
+.size {
+    font-size: 12px;
+    color: grey;
+}
+
+thead th:nth-child(1), tbody td:nth-child(1), tfoot td:nth-child(1) {
+    text-align: left;
+    padding-right: 25px;
+}
+
+tbody td:nth-child(2), tfoot td:nth-child(2) {
+    text-align: center;
+    padding-right: 8px;
+}
+
+thead th:nth-child(3), tbody td:nth-child(3), tfoot td:nth-child(3) {
+    text-align: right;
+}

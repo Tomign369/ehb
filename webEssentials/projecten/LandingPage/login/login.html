@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="loginStyle.css" />
+  </head>
+
+  <body>
+    <div class="login-container">
+      <div class="top">
+        <img src="/images/lesboules-removebg-preview.png" alt="logo" />
+        <h2>Welcome</h2>
+        <p>
+          Don't have an account yet?
+          <a href="#" class="register-button">Sign up</a>
+        </p>
+      </div>
+      <form>
+        <label for="username" class="sr-only">Username</label>
+        <input
+          placeholder="Username"
+          type="text"
+          id="username"
+          name="username"
+          required
+        />
+
+        <label for="password" class="sr-only">Password</label>
+        <input
+          placeholder="Password"
+          type="password"
+          id="password"
+          name="password"
+          required
+        />
+
+        <button type="submit">Login</button>
+
+        <div class="options">
+          <a href="#" class="forgot-password">forgot-password?</a>
+        </div>
+      </form>
+      <div class="line-container">
+        <div class="line-left"></div>
+        <span class="or">or</span>
+        <div class="line-right"></div>
+      </div>
+      <div class="logo-container">
+        <a href=""><img src="/images/twitter-x-logo-42561.png" alt="X" /></a>
+        <a href=""><img src="/images/google-logo-9808.png" alt="Google" /></a>
+        <a href="#"><img src="/images/github-sign.png" alt="GitHub" /></a>
+      </div>
+    </div>
+  </body>
+</html>

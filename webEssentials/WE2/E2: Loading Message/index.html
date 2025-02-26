@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome Message</title>
+    <style>
+      #loadingMessage {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.8);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        z-index: 9999;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="loadingMessage">Loading...</div>
+    <img src="https://picsum.photos/800/600" />
+    <img src="https://picsum.photos/800/601" />
+    <img src="https://picsum.photos/800/602" />
+
+    <script>
+      window.addEventListener("load", function () {
+        document.getElementById("loadingMessage").innerHTML = "welcome";
+        document.getElementById("loadingMessage").style.color = "purple";
+
+        setTimeout(function () {
+          document.getElementById("loadingMessage").style.display = "none";
+        }, 2000);
+      });
+    </script>
+  </body>
+</html>
